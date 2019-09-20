@@ -1,8 +1,8 @@
 #相当于application.yml默认配置文件
 spring:
   profiles:
-    active: dev
-      #- dev
+    active: #dev
+      - dev
 
 #yml支持多文档块的方式
 --- #相当于application-dev.yml配置文件，spring.profiles = dev
